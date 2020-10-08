@@ -18,4 +18,6 @@ class Artist < ActiveRecord::Base
       song.genre
     end
      genres.compact.count
+   end
+   
 end
